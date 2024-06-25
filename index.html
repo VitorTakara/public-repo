@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lojas MM </title>
+  <script async src="https://assets.streamshop.com.br/sdk/liveshop-web-sdk-ads.min.js"></script>
+</head>
+<style>
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #f1f1f3;
+  }
+  body,html{
+    height: 100%;
+    width: 100%;
+  }
+
+  .a{
+    margin: 0 auto;
+      width: 100%;
+      max-width: 900px;
+  }
+  .b{
+    padding: 40px 0;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    background: #f1f1f3;
+    width: 100%;
+  }
+
+  img{
+    width: 100%;
+  }
+</style>
+<body>
+  <div class="a">
+    <img style="cursor: pointer;" src="1.jpg" alt="" onclick="window.openStreamShopLive('https://lojasmm.liveshop.com.br/lojasmm/ao-vivo?v=4fBHgL8F')">
+    <div class="b">
+      <liveshop-ads width="210px" height="100%" hml="true" slug-video="AcJQYLxA"></liveshop-ads>
+      <img src="2.jpg" alt="">
+    </div>
+    <img src="3.jpg" style="cursor: pointer;" onclick="window.openStreamShopLive('https://lojasmm.liveshop.com.br/lojasmm/ao-vivo?v=2Zv8TB7t')" alt="">
+    <div class="b">
+      <liveshop-ads width="210px" height="100%" hml="true" slug-video="h68iJu4K"></liveshop-ads>
+      <img src="4.jpg" alt="">
+    </div>
+    <img src="5.jpg" alt="">
+  </div>
+</body>
+</html>
